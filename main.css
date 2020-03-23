@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box; /*this is so that the padding and margins don't add to the overall size of my boxes*/
+}
+
+body{
+	background-image: url("assests/images/dot.png");
+}
+
+#mainContainer{
+	height: 100%;
+	width: 960px;
+	margin: 0px auto; /*this is used to center the page*/
+}
+
+header{
+    height: 200px;
+    width: 960px;
+	margin: 20px 0px 0px 0px;
+    background-image: url("assests/images/header_bkg.png");
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Dancing Script';
+    font-size: 10em;
+    color: rgba(233,208,244,1.00);
+    text-shadow: 3px 3px rgba(179,173,174,0.50);
+}
+
+nav{
+	height: 410px;
+	width: 280px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	background-color: rgba(237,142,99,1.00);
+	float: left;
+}
+
+section{
+	height: 360px;
+	width: 635px;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(135,241,157,1.00);
+	float: left;
+}
+
+article{
+	heigth: 150px;
+	width: 100%;
+	background-color: rgba(123,178,243,1.00);
+}
+
+footer{
+	height: 30px;
+	width: 960px;
+	clear: both;
+	margin: 0px;
+	padding: 5px;
+	background-color: rgba(189,124,237,1.00);
+}
